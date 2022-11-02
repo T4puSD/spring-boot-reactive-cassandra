@@ -1,0 +1,13 @@
+package com.tapusd.reactivecassandra;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringBootReactiveCassandraApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}

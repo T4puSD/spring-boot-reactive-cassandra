@@ -1,0 +1,9 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: dev
+      schema-action: create_if_not_exists
+      local-datacenter: datacenter1
+
+  jpa:
+    show-sql: true

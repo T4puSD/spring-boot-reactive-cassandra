@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  n1:
+    image: cassandra:4
+    networks:
+      - cassandra-cluster
+    ports:
+      - "9042:9042"
+
+networks:
+  cassandra-cluster:
